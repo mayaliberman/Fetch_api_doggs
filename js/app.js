@@ -73,7 +73,7 @@ form.addEventListener('submit', postData)
 //  POST DATA
 // ------------------------------------------
 function postData(e) {
-    e.preventDafault();
+    e.preventDefault();
     const name = document.getElementById('name').value;
     const comment = document.getElementById('comment').value;
 console.log(name);
